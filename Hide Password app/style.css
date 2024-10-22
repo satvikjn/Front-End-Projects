@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand",  sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(13, 31, 43) ;
+}
+
+.widget{
+    width: 100%;
+    max-width: 500px;
+    margin: 200px auto;
+    color: #fff;
+}
+
+.input-box{
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-box input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.input-box img{
+    width: 20px;
+    cursor: pointer;
+}
